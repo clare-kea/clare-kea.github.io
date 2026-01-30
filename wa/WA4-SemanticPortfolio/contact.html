@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info</title>
+        <style>
+        header {
+            font-size:1.7rem;
+            text-align: center;
+            background-color: rgba(189, 142, 217, 0.87);
+            padding-top: .01%;
+        }
+
+        img {
+            margin-top: 15px;
+            margin-left: 10px;
+            float: right;
+            width: 340px; 
+            height: 375px;
+            border: 10px double black;
+            
+        }
+        nav {
+            display: flex; 
+            flex-direction: row; /** row = horizonal, col = vertical **/
+            justify-content: space-around;
+            font-size: 1.7rem;
+            background-color: rgba(189, 142, 217, 0.87);
+            
+        }
+        a:link, a:visited {
+            color: #551282;
+            text-decoration: none;
+        }
+        
+        a:hover, a:active{
+            color: #551282;
+            text-decoration: underline;
+        }
+        h2{
+            margin-top: 15px;
+            font-size: 1.5em;
+        }
+        p{
+            font-size: 1.2em;
+        }
+        footer{
+            margin-top: 614px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+    <h1 tabindex="8">Contact Information</h1>
+    <nav>   
+        <a href = "homepage.html" tabindex="3">Home</a>
+        <a href = "experience.html" tabindex="1">Expereince</a>
+        <a href = "projects.html" tabindex="2">Projects</a>
+        <a href = "contact.html" tabindex="0"><u>Contact</u></a>   
+    </nav>
+    </header>
+    <main>
+        <h2>How to reach me:</h2>
+            <p><strong> Tel:</strong> <abbr title="I'm not actually telling you">+1 ###-###-####</abbr></p>
+            <p><strong>Email:</strong> <a href="mailto:clke6232@colorado.edu">clke6232@colorado.edu</a></p>
+    </main>
+    <footer>
+        <p>This portfolio webside was made between January 29-February 2, 2026</p>
+    </footer>
+</body>
