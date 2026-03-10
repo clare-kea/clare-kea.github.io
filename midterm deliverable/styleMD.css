@@ -9,11 +9,30 @@
             border: 5px double black;
             text-shadow: black 0px 3px 5px;
         }
+        html, body{
+            height:100%;
+        }
+
         html{
             height: 100%;
             width: 100%;
-            border: 6px solid #185E3F;
             box-sizing: border-box;
+        }
+        body::before{
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border: 6px solid #185E3F;
+            pointer-events: none;
+            z-index: 9999;
+        }
+        body{
+            display:flex;
+            flex-direction:column;
+            min-height:100vh;
         }
         body {
             background: radial-gradient(white, lightgray);
@@ -92,10 +111,9 @@
             font-size: 1.2em;
         }
         footer{
-            position: fixed;
+            margin-top:auto;
             text-align: center;
-            bottom: 15px;
-            left: 48%;
+            padding:20px 0;
         }
 
         article{
