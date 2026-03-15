@@ -1,5 +1,6 @@
         header {
-            font-size:1.6rem;
+            font-family: serif;
+            font-size:1.7rem;
             text-align: center;
             background-color: #185E3F;
             padding-top: 0.2%;
@@ -7,7 +8,7 @@
             color: white;   
             padding: 0.3%;
             border: 5px double black;
-            text-shadow: black 0px 3px 5px;
+            text-shadow: black 0px 4px 5px;
         }
 
         html, body{
@@ -31,9 +32,10 @@
             z-index: 9999;
         }
         body{
-            display:flex;
-            flex-direction:column;
-            min-height:100vh;
+            font-family: Verdana, Geneva, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
             background: radial-gradient(white, lightgray);
             margin: 10px;
             padding:10px;
@@ -85,20 +87,20 @@
         }
 
         a:hover {
-            color: lightpink;
+            color: yellow;
             transform: scale(1.05);
         }
 
 
         h2{
             text-align: center;
-            font-size: 1.5em;
+            font-size: 1.4em;
             margin-top: 30px;
         }
 
         .emp {
             text-align: center;
-            font-size: 1.5em;
+            font-size: 1.4em;
             margin-top: 15px;
             margin-bottom: 10px;
         }
@@ -106,9 +108,10 @@
             margin-bottom: 5px;
             text-align: center;
         }
+
         p{
             text-align: center;
-            font-size: 1.2em;
+            font-size: 1em;
         }
         footer{
             margin-top:auto;
@@ -117,13 +120,13 @@
         }
 
         article{
-            font-size: 13pt;
+            font-size: 12.2pt;
             text-align: center;
         }
 
         section h2{
             text-align: center;
-            font-size: 1.5em;
+            font-size: 1.4em;
             margin-top:10px;
             margin-bottom:15px;
         }
@@ -131,8 +134,15 @@
         .projP{
             margin-top: 0px;
             text-align: center;
-            font-size:1.2em;
+            font-size:1em;
             line-height:1;
+        }
+
+        aside .projP {
+            font-size: .8em;
+            margin-top:auto;
+            text-align: center;
+            padding-bottom: 20px;
         }
 
         @media (min-width:900px){
