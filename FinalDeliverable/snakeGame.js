@@ -112,14 +112,13 @@ function draw() {
   ) {
 
     let choice = prompt(
-      "Exit reached! Keep this volume? " + volume + " (yes/no)"
+      "Exit reached! Is this the volume that you don't not want to have? " + volume + " (yes/no)"
     );
 
     if (choice === "yes") {
 
       tryAgain(
-        "Game ended. Final Volume: " + volume
-      );
+        "Game ended. Final Volume: " + volume);
 
     } else {
 
