@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB Final Deliverable</title>
+    <style>
+        canvas{
+            background: black;
+            display: block;
+            margin: auto;
+            border: 7px solid mediumaquamarine;
+        }
+        button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+
+        body{
+            background: #111;
+            color: #FFFF;
+            font-family: Arial;
+            text-align: center;
+        }
+
+        #volumeText {
+            font-size: 24px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        #startBtn {
+            color:black;
+            background-color: mediumaquamarine;
+            border: 4px outset;
+            border-radius: 100px;
+
+        }
+
+        #restartBtn{
+            color: black;
+            background-color: mediumaquamarine;
+            border: 4px inset;
+            border-radius: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> Adjust Your Volume with Snake! </h1>
+    <h2 id="volumeText"> Volume: 0</h2>
+    <button id="startBtn">Adjust your volume?</button>
+    <button id="restartBtn" style="display:none";>Try again?</button>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+    <script src="snakeGame.js" defer></script>
+</body>
+</html>
