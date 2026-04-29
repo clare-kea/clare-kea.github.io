@@ -112,10 +112,10 @@ function draw() {
   ) {
 
     let choice = prompt(
-      "Exit reached! Is this the volume that you don't not want to have? " + volume + " (yes/no)"
+      "Exit reached! Is this the volume that you don't want to have? " + volume + " (yes/no)"
     );
 
-    if (choice === "yes") {
+    if (choice === "no") {
 
       tryAgain(
         "Game ended. Final Volume: " + volume);
@@ -126,8 +126,7 @@ function draw() {
       updateVolText();
 
       tryAgain(
-        "Volume reset to 0."
-      );
+        "Volume reset to 0.");
     }
 
     return;
